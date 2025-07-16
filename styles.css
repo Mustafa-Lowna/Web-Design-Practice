@@ -1,0 +1,15 @@
+h1 {
+  color: crimson;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  font-size: 40px;
+}
+ul {
+  color: darkorange;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: square;
+}

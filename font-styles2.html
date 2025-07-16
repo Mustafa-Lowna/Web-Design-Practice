@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Styles</title>
+  </head>
+  <style>
+    body {
+      font-family: roboto;
+      padding: 20px;
+      background-color: rgb(255, 249, 249);
+    }
+    h1 {
+      font-size: 50px;
+      font-family: playfair-display, serif;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(104, 0, 0);
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .simple-text {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 400px;
+      line-height: 35px;
+      font-style: normal;
+      letter-spacing: 2.5px;
+      text-align: justify;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 1px 1px 15px rgb(0, 0, 0);
+      border-radius: 15px;
+      max-width: 900px;
+      margin: 0%;
+      border-left: solid 3px rgb(182, 25, 25);
+      border-right: solid 3px rgb(182, 25, 25);
+      color: rgb(44, 1, 1);
+    }
+    .italic-sample {
+      font-family: playfair-display, serif;
+      font-style: italic;
+      margin-top: 20px;
+    }
+  </style>
+  <body>
+    <h1>Font Styling in CSS</h1>
+    <p class="simple-text">
+      This paragraph is styled using the Roboto font from Google Fonts. It
+      demonstrates key properties such as
+      <strong>font-size, font-weight, line-height, letter-spacing, </strong> and
+      <strong>text-align.</strong> These attributes can be thoughtfully adjusted
+      to significantly enhance the readability, visual appeal, and overall user
+      experience of your <strong>web page content.</strong>
+    </p>
+    <p class="italic-sample">
+      This line is italic and uses a serif font - Playfair Display - to show how
+      font-style and font-family can be combined.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(193, 227, 199);
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(2, 77, 37);
+  font-size: 80;
+  text-align: center;
+  text-shadow: 3px 6px 7px rgb(21, 84, 2);
+}
+p,
+ul {
+  color: rgb(27, 141, 69);
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30;
+  text-align: justify;
+}
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif "Lucida Sans", Arial, sans-serif;
+  font-size: 35px;
+  color: rgb(2, 55, 32);
+}
+img {
+  border: solid 5px rgb(0, 148, 30);
+  border-radius: 10px;
+}
+h3 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul {
+  color: rgb(1, 57, 29);
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style-type: square;
+}
