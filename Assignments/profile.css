@@ -1,0 +1,35 @@
+body {
+  font-family: poppins, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+.profile-card {
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid rgb(224, 220, 220);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 22, 41, 0.811);
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.bio {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+}
+.profile-card i {
+  color: #02274f;
+  margin-right: 10px;
+}
+h2 {
+  color: #02274f;
+}
