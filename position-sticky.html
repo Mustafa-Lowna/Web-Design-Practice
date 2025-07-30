@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Sticky</title>
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Grand+Hotel&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Roboto;
+        margin: 0;
+        background-color: #faf7f0;
+        height: 2000px;
+      }
+
+      header,
+      nav,
+      footer {
+        background-color: cadetblue;
+        color: white;
+        padding: 15px;
+      }
+      header h1,
+      header p {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 40px;
+      }
+      header p {
+        margin-top: -20px;
+        font-size: larger;
+      }
+      nav a {
+        color: rgb(255, 255, 255);
+        margin-right: 15px;
+        text-decoration: none;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      article {
+        background-color: cadetblue;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+        border: 1px solid cadetblue;
+      }
+
+      footer {
+        text-align: center;
+      }
+      article p {
+        color: #ffffff;
+      }
+      h3 {
+        color: #ffffff;
+      }
+      h2 {
+        color: cadetblue;
+      }
+      nav {
+        position: sticky;
+        top: 0;
+        background-color: #4d4d4d;
+        text-align: center;
+      }
+    </style>
+
+    <body>
+      <header>
+        <h1>Graphic Design</h1>
+        <p>All about modern graphic designing.</p>
+      </header>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#graphic">Graphic Design</a>
+        <a href="#">Videos</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+      </nav>
+
+      <main>
+        <!-- Only Graphic Designing Section -->
+        <section id="graphic">
+          <h2>Graphic Designing</h2>
+
+          <article>
+            <h3>Popular Graphic Design Software</h3>
+            <p>
+              For graphic design, industry-standard tools include Adobe
+              Photoshop, Illustrator, and Canva. These platforms help in
+              creating everything from social media graphics to logos and
+              posters. Each tool has unique features for editing photos,
+              designing vector art, and composing layouts.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Graphic Design. All rights reserved.</p>
+      </footer>
+    </body>
+  </body>
+</html>
