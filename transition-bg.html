@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition Button</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+      }
+      .btn {
+        background-color: rgb(149, 0, 0);
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 1s ease;
+      }
+      .btn:hover {
+        background-color: rgb(237, 3, 3);
+        color: black;
+        transition: 1.5s;
+      }
+      .box {
+        background-color: rgb(149, 0, 0);
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 1s ease;
+        width: 150px;
+        height: 25px;
+        text-align: center;
+      }
+      .box:hover {
+        background-color: rgb(237, 3, 3);
+        width: 250px;
+        transition: 1.5s;
+      }
+      img {
+        transition: background-color 1s ease-in-out;
+        width: 150px;
+        height: 100px;
+        margin-top: 25px;
+      }
+      img:hover {
+        width: 250px;
+        height: 150px;
+        transition: 1.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">Look here</button> <br /><br />
+    <div class="box">Look at me</div>
+    <img src="img/Sun.jpg" alt="Image of sun" />
+  </body>
+</html>
