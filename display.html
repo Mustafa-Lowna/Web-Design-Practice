@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Property</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        color: rgb(230, 6, 6);
+      }
+      .box {
+        border: 2px solid rgb(111, 111, 111);
+        margin: 5px;
+        padding: 10px;
+        background-color: gainsboro;
+      }
+      .block {
+        display: block;
+        background-color: rgb(157, 202, 85);
+        color: white;
+      }
+      .inline {
+        display: inline;
+        background-color: rgb(24, 173, 206);
+        color: white;
+        margin: 5px;
+        padding: 10px;
+      }
+      .inline-block {
+        display: inline-block;
+        width: 200px;
+        height: 150px;
+        background-color: rgb(207, 104, 13);
+        color: white;
+        margin-top: -5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Display Property</h2>
+    <h3>1. Block Elements</h3>
+    <div class="box block">Block Elements 1</div>
+    <div class="box block">Block Elements 2</div>
+    <p>Takes full width and starts on a new line</p>
+
+    <h3>1. Inline Elements</h3>
+    <div class="box inline">Inline Elements 1</div>
+    <div class="box inline">Inline Elements 2</div>
+    <p>Takes only the space need; Width and Height can be set</p>
+
+    <h3>1. Inline-Block</h3>
+    <div class="box inline-block">Inline-Block 1</div>
+    <div class="box inline-block">Inline-Block 2</div>
+    <p>Takes only the space need; Width and Height can be set</p>
+  </body>
+</html>
