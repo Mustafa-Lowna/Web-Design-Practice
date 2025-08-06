@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --brand-1: rgb(0, 147, 147);
+        --paragraph-color: rgb(1, 56, 43);
+        --font-size: 30px;
+        --brand-2: rgb(141, 78, 0);
+        --dark-color: rgb(37, 4, 86);
+        --button-hover-color: rgb(153, 0, 0);
+        --footer-color: white;
+      }
+
+      h1 {
+        color: var(--brand-1);
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: var(--paragraph-color);
+      }
+
+      ol {
+        color: var(--dark-color);
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: rgb(42, 153, 165);
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      button {
+        background-color: rgb(91, 0, 0);
+        color: black;
+        padding: 10px;
+        width: 110px;
+        border: none;
+        color: white;
+      }
+      button:hover {
+        background-color: var(--button-hover-color);
+      }
+      footer,
+      header {
+        background-color: #410e0e;
+        text-align: center;
+        padding: 35px;
+      }
+      footer p {
+        color: var(--footer-color);
+      }
+      div {
+        text-align: center;
+      }
+      footer {
+        margin-top: 20px;
+      }
+      h1 {
+        color: white;
+      }
+    </style>
+  </head>
+  <header>
+    <h1>Welcome To My Website</h1>
+  </header>
+  <body>
+    <h2>CSS Variables Demo</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+      temporibus minima necessitatibus, omnis mollitia atque esse, rerum
+      doloribus officia tempora modi unde nesciunt natus sint similique illo
+      nobis alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+      a obcaecati deserunt accusantium quas error rerum ea doloribus voluptatum
+      ratione at debitis, amet consectetur impedit corrupti nam neque minus in?
+    </p>
+
+    <h2>Heading 2</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, doloribus
+      minus? Saepe reiciendis natus illum ratione et animi, reprehenderit nobis
+      veritatis sapiente! Expedita ducimus incidunt corrupti placeat minima,
+      unde porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+      quam autem nostrum nisi ut cum facere itaque, debitis dolorem alias veniam
+      cumque repellendus voluptatum ducimus quod ullam tempora voluptatibus
+      ratione.
+    </p>
+    <ol>
+      <li>Lorem</li>
+      <li>Lorem</li>
+      <li>Lorem</li>
+      <li>Lorem</li>
+      <li>Lorem</li>
+      <li>Lorem</li>
+    </ol>
+    <div>
+      <button>Complete</button>
+    </div>
+    <footer>
+      <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
