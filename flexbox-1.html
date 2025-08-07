@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box Basics</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        color: rgb(3, 93, 92);
+      }
+      .flex-container-1 {
+        /* width: 700px; */
+        height: 300px;
+        border: 2px solid rgb(3, 78, 77);
+        background-color: rgb(220, 255, 254);
+        border-radius: 5px;
+        /* flex box styles */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+      .flex-container-2 {
+        /* width: 700px; */
+        height: 300px;
+        border: 2px solid rgb(3, 78, 77);
+        background-color: rgb(220, 255, 254);
+        border-radius: 5px;
+        /* flex box styles */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+      }
+      .box {
+        border: 1px solid rgb(3, 93, 92);
+        background-color: rgb(75, 200, 198);
+        width: 100px;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Box basics</h1>
+    <div class="flex-container-1">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+    <div class="flex-container-2">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+  </body>
+</html>

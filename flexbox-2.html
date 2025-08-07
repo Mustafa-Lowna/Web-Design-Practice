@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box Basics</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        color: rgb(93, 56, 3);
+        text-align: center;
+      }
+      .flex-container {
+        /* width: 700px; */
+        height: 250px;
+        /* border: 2px solid rgb(78, 39, 3); */
+        background-color: rgb(247, 233, 220);
+        border-radius: 5px;
+        /* flex box styles */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+        color: white;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        /* border: 1px solid rgb(93, 51, 3); */
+        background-color: rgb(244, 221, 209);
+        width: 100px;
+        text-align: center;
+        padding: 20px;
+      }
+      .box1 {
+        background-color: rgb(203, 96, 96);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 200px;
+      }
+      .box2 {
+        background-color: cadetblue;
+        flex-grow: 4;
+        flex-shrink: 1;
+        flex-basis: 500px;
+      }
+      .box3 {
+        background-color: rgb(111, 168, 111);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 200px;
+      }
+      /* @media (max-width: 768) {
+        .flex-container {
+          flex-direction: row;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Flex Box basics</h1>
+    <div class="flex-container">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+    </div>
+  </body>
+</html>
