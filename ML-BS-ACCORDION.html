@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ML TRAVELS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: azure;
+      }
+      h1 {
+        background-color: rgba(0, 89, 121, 0.71);
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-shadow: 1px 1px 5px rgb(255, 255, 255);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5 text-white py-3 mb-5">ML Travels</h1>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/newyork2.jpg"
+              class="d-block w-100"
+              alt="image of newyork"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>New York</h5>
+              <p>
+                The city that never sleeps. New York pulses with energy,
+                ambition, and diversity. From the towering skyline to the
+                vibrant neighborhoods, it’s a place where dreams are chased and
+                stories unfold every second.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/paris2.jpg"
+              class="d-block w-100"
+              alt="image of paris"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paris</h5>
+              <p>
+                The heart of romance and elegance. Paris enchants with its
+                timeless beauty—from the glittering Eiffel Tower to the artistic
+                soul of Montmartre. A city that inspires love, creativity, and
+                style.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/london.jpg"
+              class="d-block w-100"
+              alt="image of tokyo"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>London</h5>
+              <p>
+                London is a vibrant city known for its history, culture, and
+                iconic landmarks like Big Ben and the Tower Bridge.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br /><br />
+      <div class="accordion" id="TravelAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button p-3 bg-info-subtle bg-opacity-10 border border-info border-start-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <strong>London</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#TravelAccordion"
+          >
+            <div class="accordion-body text-info-emphasis">
+              London is a city of <strong>contrasts</strong>, where
+              <strong>royal palaces stand beside punk rock graffiti</strong>,
+              and <strong>centuries-old pubs</strong> share streets with
+              <strong>futuristic skyscrapers</strong>.<br />
+              The <strong>Thames flows like a ribbon</strong> through its heart,
+              connecting neighborhoods that each pulse with their own
+              identity—from the
+              <strong>intellectual hum of Bloomsbury</strong> to the
+              <strong>electric energy of Shoreditch</strong>.<br />
+              <strong>Red buses, black cabs, and the chime of Big Ben</strong>
+              form the soundtrack of a city that’s always evolving, yet
+              <strong>never forgets its roots</strong>.<br />
+              <strong>London is tradition wrapped in innovation</strong>, with a
+              <strong
+                >cup of tea in one hand and a vision of tomorrow in the
+                other</strong
+              >.
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button p-3 bg-info-subtle bg-opacity-10 border border-info border-start-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <strong>New York</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#TravelAccordion"
+          >
+            <div class="accordion-body text-info-emphasis">
+              <strong>New York City</strong><br />
+              New York is <strong>pure adrenaline</strong>. It’s the
+              <strong
+                >roar of ambition echoing through canyons of steel and
+                glass</strong
+              >, the
+              <strong>scent of street food mingling with dreams</strong> on
+              every corner.<br />
+              From the <strong>neon blaze of Times Square</strong> to the
+              <strong>quiet resilience of Brooklyn brownstones</strong>, it’s a
+              city that <strong>belongs to everyone and no one</strong>.<br />
+              <strong>Cultures collide, ideas ignite</strong>, and every block
+              feels like a <strong>universe of its own</strong>.<br />
+              Whether you're
+              <strong>chasing a dream or just trying to keep up</strong>, New
+              York doesn’t wait—it
+              <strong>challenges you to rise, to hustle, to shine</strong>.
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button p-3 bg-info-subtle bg-opacity-10 border border-info border-start-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <strong>Paris</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#TravelAccordion"
+          >
+            <div class="accordion-body text-info-emphasis">
+              Paris is a city that
+              <strong>breathes elegance and history</strong> with every step.
+              From the
+              <strong>majestic silhouette of the Eiffel Tower</strong> piercing
+              the sky to the quiet charm of
+              <strong>Montmartre’s winding alleys</strong>, it’s a place where
+              <strong>art and architecture dance in harmony</strong>.<br />
+              The <strong>scent of fresh croissants</strong> wafts through
+              morning air, <strong>lovers linger along the Seine</strong>, and
+              every corner seems to whisper stories of
+              <strong>poets, painters, and revolutionaries</strong>.<br />
+              <strong
+                >Paris isn’t just a destination it’s a mood, a muse, and a
+                masterpiece.</strong
+              >
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button p-3 bg-info-subtle bg-opacity-10 border border-info border-start-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsefour"
+              aria-expanded="false"
+              aria-controls="collapsefour"
+            >
+              <strong>Tokyo</strong>
+            </button>
+          </h2>
+          <div
+            id="collapsefour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#TravelAccordion"
+          >
+            <div class="accordion-body text-info-emphasis">
+              Tokyo is a city of
+              <strong>futuristic dreams and ancient rhythms</strong>, where
+              <strong>neon-lit skyscrapers</strong> rise beside
+              <strong>centuries-old temples</strong>.<br />
+              It’s a place where <strong>precision meets creativity</strong>,
+              from the quiet grace of a tea ceremony to the electric pulse of
+              Shibuya Crossing.<br />
+              The city offers <strong>limitless experiences</strong>—whether
+              you're wandering through
+              <strong>the cherry blossoms of Ueno Park</strong>, shopping in
+              <strong>Harajuku’s fashion jungle</strong>, or savoring
+              <strong>sushi crafted like art</strong> in Tsukiji.<br />
+              <strong
+                >Tokyo is not just a city—it’s a universe of contrasts</strong
+              >, where every train ride feels like a journey through time and
+              culture.<br />
+              <strong
+                >It’s fast, it’s focused, and it’s forever fascinating.</strong
+              >
+
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
